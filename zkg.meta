@@ -1,0 +1,6 @@
+[package]
+description=pdns package with dns filtering enabled
+script_dir = scripts
+version = 0.1 
+tags = pdns, dns 
+test_command = ( cd tests && btest -d )
